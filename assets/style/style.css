@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.menu {
+  width: 40%;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__item {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.title {
+  font-family: "Playwrite PT", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: rgb(76, 29, 120);
+  text-shadow: 3px 2px 3px rgb(248, 197, 205);
+  margin-bottom: 40px;
+}
+
+.content {
+  width: 90%;
+  border: 5px groove rgb(190, 160, 207);
+  display: flex;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.image {
+  width: 15%;
+  border: 5px solid rgb(190, 160, 207);
+  margin: 20px;
+}
+
+.image:hover {
+  opacity: 0.5;
+}
+
+img {
+  width: 100%;
+}
